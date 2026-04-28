@@ -1,37 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\37) Developer Hub (Running)\\Task 01(Task Management System)\\Task Management System\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|h:\\37) developer hub (running)\\task 01(task management system)\\task management system\\task management system\\api\\loginapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|solutionrelative:task management system\\api\\loginapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "H:\\37) Developer Hub (Running)\\DevelopersHubInternship_Task\\Task 01(Task Management System)\\Task Management System\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginAPI.cs",
-              "DocumentMoniker": "H:\\37) Developer Hub (Running)\\Task 01(Task Management System)\\Task Management System\\Task Management System\\API\\LoginAPI.cs",
-              "RelativeDocumentMoniker": "Task Management System\\API\\LoginAPI.cs",
-              "ToolTip": "H:\\37) Developer Hub (Running)\\Task 01(Task Management System)\\Task Management System\\Task Management System\\API\\LoginAPI.cs",
-              "RelativeToolTip": "Task Management System\\API\\LoginAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T08:14:28.524Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

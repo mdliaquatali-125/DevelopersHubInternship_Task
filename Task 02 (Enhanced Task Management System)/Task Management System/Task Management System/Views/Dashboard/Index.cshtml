@@ -1,0 +1,173 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    #pie-chart .ct-series-a .ct-slice-donut {
+        stroke: #f39c12; /* Pending */
+    }
+
+    #pie-chart .ct-series-b .ct-slice-donut {
+        stroke: #3498db; /* In Progress */
+    }
+
+    #pie-chart .ct-series-c .ct-slice-donut {
+        stroke: #2ecc71; /* Completed */
+    }
+
+    #chart-legend {
+        list-style: none;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+        #chart-legend li {
+            padding: 6px 0;
+            font-weight: 500;
+            font-size: 14px;
+        }
+</style>
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row page-titles">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4 id="greeting" class="mt-3">Hello!</h4>
+                    <span id="date-time" class="mt-5 mb-3">Loading date and time...</span>
+                </div>
+            </div>
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-5 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                    <li class="breadcrumb-item active"><a href="javascript:void(0)">Home</a></li>
+                </ol>
+            </div>
+        </div>
+        <!-- row -->
+
+        <div class="row">
+            <div class="col-xl-3 col-xxl-3 col-sm-6">
+                <div class="widget-stat card bg-primary">
+                    <div class="card-body">
+                        <div class="media">
+                            <span class="mr-3">
+                                <i class="la la-tasks"></i>
+                            </span>
+                            <div class="media-body text-white mt-3">
+                                <p class="mb-1">Total Task</p>
+                                <h3 id="totalTask" class="text-white"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-xxl-3 col-sm-6">
+                <div class="widget-stat card bg-warning">
+                    <div class="card-body">
+                        <div class="media">
+                            <span class="mr-3">
+                                <i class="la mdi-lan-pending"></i>
+                            </span>
+                            <div class="media-body text-white mt-3">
+                                <p class="mb-1">Pending Task</p>
+                                <h3 id="pendingTask" class="text-white"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-xxl-3 col-sm-6">
+                <div class="widget-stat card bg-green-light">
+                    <div class="card-body">
+                        <div class="media">
+                            <span class="mr-3">
+                                <i class="la la-tasks"></i>
+                            </span>
+                            <div class="media-body text-white mt-3">
+                                <p class="mb-1">In Progress Task</p>
+                                <h3 id="inProgressTask" class="text-white"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-xxl-3 col-sm-6">
+                <div class="widget-stat card bg-gray-dark">
+                    <div class="card-body">
+                        <div class="media">
+                            <span class="mr-3">
+                                <i class="la mdi-lan-pending"></i>
+                            </span>
+                            <div class="media-body text-white mt-3">
+                                <p class="mb-1">Complete Task</p>
+                                <h3 id="completeTask" class="text-white"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h5 class="mb-3" style="font-weight:600;">
+                    Task Status Overview
+                </h5>
+            </div>
+
+            <div class="col-md-8">
+                <div id="pie-chart" class="ct-chart ct-golden-section"></div>
+            </div>
+
+            <div class="col-md-4">
+                <h6 style="font-weight:500; margin-bottom:10px;">
+                    Status Details
+                </h6>
+
+                <ul id="chart-legend"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/assets/js/DashboardJS.js"></script>
+<script src="~/assets/vendor/global/global.min.js"></script>
+<script src="~/assets/vendor/chartist/js/chartist.min.js"></script>
+<script src="~/assets/vendor/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+<script src="~/assets/js/plugins-init/chartist-init.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Notification click handle
+        document.querySelector('.notification_dropdown .nav-link')
+            ?.addEventListener('click', function (e) {
+
+                e.preventDefault();
+
+                let parent = this.closest('.notification_dropdown');
+
+                parent.classList.toggle('show');
+                parent.querySelector('.dropdown-menu').classList.toggle('show');
+
+            });
+
+
+        // Profile / Logout dropdown click handle
+        document.querySelector('.header-profile .nav-link')
+            ?.addEventListener('click', function (e) {
+
+                e.preventDefault();
+
+                let parent = this.closest('.header-profile');
+
+                parent.classList.toggle('show');
+                parent.querySelector('.dropdown-menu').classList.toggle('show');
+
+            });
+
+    });
+</script>

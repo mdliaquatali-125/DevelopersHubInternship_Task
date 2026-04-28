@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|h:\\37) developer hub (running)\\task 02 (enhanced task management system)\\task management system\\task management system\\models\\sharedtaskapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|solutionrelative:task management system\\models\\sharedtaskapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|h:\\37) developer hub (running)\\task 02 (enhanced task management system)\\task management system\\task management system\\api\\taskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|solutionrelative:task management system\\api\\taskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|h:\\37) developer hub (running)\\task 02 (enhanced task management system)\\task management system\\task management system\\models\\taskapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|solutionrelative:task management system\\models\\taskapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|h:\\37) developer hub (running)\\task 02 (enhanced task management system)\\task management system\\task management system\\api\\sharedtaskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|solutionrelative:task management system\\api\\sharedtaskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|h:\\37) developer hub (running)\\task 02 (enhanced task management system)\\task management system\\task management system\\assets\\js\\edittaskjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6C1C807D-2C03-44E2-B30B-84F6FE21D88F}|Task Management System\\Task Management System.csproj|solutionrelative:task management system\\assets\\js\\edittaskjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskAPI.cs",
+              "DocumentMoniker": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\API\\TaskAPI.cs",
+              "RelativeDocumentMoniker": "Task Management System\\API\\TaskAPI.cs",
+              "ToolTip": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\API\\TaskAPI.cs",
+              "RelativeToolTip": "Task Management System\\API\\TaskAPI.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAIwMcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T09:50:45.149Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditTaskJS.js",
+              "DocumentMoniker": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\assets\\js\\EditTaskJS.js",
+              "RelativeDocumentMoniker": "Task Management System\\assets\\js\\EditTaskJS.js",
+              "ToolTip": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\assets\\js\\EditTaskJS.js",
+              "RelativeToolTip": "Task Management System\\assets\\js\\EditTaskJS.js",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAxwJ8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-28T12:19:12.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SharedTaskAPIModel.cs",
+              "DocumentMoniker": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\Models\\SharedTaskAPIModel.cs",
+              "RelativeDocumentMoniker": "Task Management System\\Models\\SharedTaskAPIModel.cs",
+              "ToolTip": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\Models\\SharedTaskAPIModel.cs",
+              "RelativeToolTip": "Task Management System\\Models\\SharedTaskAPIModel.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwGsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:03:47.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskAPIModel.cs",
+              "DocumentMoniker": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\Models\\TaskAPIModel.cs",
+              "RelativeDocumentMoniker": "Task Management System\\Models\\TaskAPIModel.cs",
+              "ToolTip": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\Models\\TaskAPIModel.cs",
+              "RelativeToolTip": "Task Management System\\Models\\TaskAPIModel.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAIAwwM8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:02:54.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SharedTaskAPI.cs",
+              "DocumentMoniker": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\API\\SharedTaskAPI.cs",
+              "RelativeDocumentMoniker": "Task Management System\\API\\SharedTaskAPI.cs",
+              "ToolTip": "H:\\37) Developer Hub (Running)\\Task 02 (Enhanced Task Management System)\\Task Management System\\Task Management System\\API\\SharedTaskAPI.cs",
+              "RelativeToolTip": "Task Management System\\API\\SharedTaskAPI.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAowEgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:01:43.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
